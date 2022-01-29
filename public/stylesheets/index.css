@@ -1,0 +1,133 @@
+body{
+    background-color: #848E53;
+    /* background-image: url(../images/BG.png); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+
+#bg{
+    
+    width: 1920px;
+    margin:0;
+    padding:0;
+
+}
+
+
+.container .connect {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%); 
+   
+}
+
+
+.connectButton{
+
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+.address{
+
+    display: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 5px;
+
+}
+
+
+
+.mintbuttonsparent {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%); 
+
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.mintbutton {
+    width: 55px;
+    height: 85px;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    /* background-image: url('../images/minus.png'); */
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/minus-math.png');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 64px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Common Pixel';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Common Pixel'), url('https://fonts.cdnfonts.com/s/7553/COMMP___.woff') format('woff');
+}
+
+
+.text-block-3 {
+    font-family: 'Common Pixel', sans-serif;
+    color: #ffc200;
+    font-size: 142px;
+    line-height: 150px;
+    font-weight: 700;
+}
+
+
+.mintbuttonplus {
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
+    border-radius: 8px;
+    /* background-color: transparent; */
+    /* background-image: url("https://img.icons8.com/material-rounded/120/000000/plus-math--v1.png"); */
+    background-image: url('../images/plus.png');
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: black;
+    font-size: 64px;
+    line-height: 30px;
+    font-weight: 600;
+}
